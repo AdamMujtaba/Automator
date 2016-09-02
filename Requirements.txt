@@ -1,0 +1,5 @@
+To successfuly run this script. you need paramiko installed on your python 
+to install paramiko use "pip3 install paramiko" without quotations 
+configure hosts file with a real or virtual devices and you're good to go. 
+
+
