@@ -29,5 +29,5 @@ for connect in host:
         output_config = output.readlines()
         for line in output_config:
             shell_input, shell_output, shell_error = SSH.exec_command(output_config[line].replace('\n', ''))
-    with open('Output.txt', 'w') as writer:
-        writer.write(shell_output.read())
+            with open('Output.txt', 'w') as writer:
+                writer.write(shell_output.read())
