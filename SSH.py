@@ -31,3 +31,4 @@ for connect in host:
             shell_input, shell_output, shell_error = SSH.exec_command(output_config[line].replace('\n', ''))
             with open('Output.txt', 'w') as writer:
                 writer.write(shell_output.read())
+                writer.close()
